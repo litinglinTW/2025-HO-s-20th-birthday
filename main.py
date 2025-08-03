@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
+
 """
 Created on Mon Jul 21 22:29:56 2025
 
@@ -77,12 +77,3 @@ if selected_page == "2025 HOHO's 20th birthday":
     
 elif selected_page == "2025 ???'s 20th birthday":
     st.write("這是另一個生日頁面內容，請自行填寫。")
-
-
-
-
-
-
-
-
-            
