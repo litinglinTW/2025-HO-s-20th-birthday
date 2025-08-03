@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
+"""
 Created on Mon Jul 21 22:29:56 2025
 
 @author: cglinmacbook
@@ -27,7 +28,6 @@ selected_page = st.sidebar.selectbox("請選擇主題頁面", pages)
 auth_key = f"auth_{selected_page}"
 
 st.title("2025 HOHO's 20th birthday")
-
 
 
 
@@ -65,7 +65,7 @@ if selected_page == "2025 HOHO's 20th birthday":
                 if pwd == CARD_PASSWORD:
                     st.session_state[CARD_AUTH_KEY] = True
                     st.success("密碼正確，歡迎進入卡片頁面！")
-                    st.experimental_rerun()
+                    st.rerun()
                 else:
                     st.error("密碼錯誤，請再試一次！")
             st.stop()  # 密碼錯誤或還沒驗證就不顯示 card_page
