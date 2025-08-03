@@ -9,7 +9,7 @@ Created on Sun Aug  3 11:45:42 2025
 import streamlit as st
 import os
 
-CARD_FILE = "/Users/cglinmacbook/Desktop/python專案/birthday/modules/HOHOcard.txt"  # 祝福文字檔案，請放在專案根目錄或指定路徑
+CARD_FILE = "modules/HOHOcard.txt"  # 祝福文字檔案，請放在專案根目錄或指定路徑
 
 def card_page():
     st.header("🎁")

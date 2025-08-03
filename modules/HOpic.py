@@ -12,7 +12,7 @@ import os
 
 def pic_page():
     
-    MEDIA_FOLDER = "/Users/cglinmacbook/Desktop/python專案/birthday/荷/group"
+    MEDIA_FOLDER = "/荷/group"
     image_exts = [".jpg", ".jpeg", ".png"]
     video_exts = [".mp4", ".webm", ".mov"]
     

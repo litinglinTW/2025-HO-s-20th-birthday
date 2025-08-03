@@ -21,44 +21,40 @@ def get_image_files(folder):
 QUESTIONS = [
     {
         "question": "which one are HO's eyes？",
-        "answer_dir": "/Users/cglinmacbook/Desktop/python專案/birthday/荷/答案資料夾/ho-eyes",      # 請改成你的答案資料夾路徑
-        "non_answer_dir": "/Users/cglinmacbook/Desktop/python專案/birthday/荷/非答案資料夾/others-eyes",  # 請改成你的非答案資料夾路徑
+        "answer_dir": "荷/答案資料夾/ho-eyes",      # 相對路徑
+        "non_answer_dir": "荷/非答案資料夾/others-eyes",
         "explanation": "difficulty: 3/5"
     },
     {
         "question": "which one are HO's legs？",
-        "answer_dir": "/Users/cglinmacbook/Desktop/python專案/birthday/荷/答案資料夾/ho-legs",
-        "non_answer_dir": "/Users/cglinmacbook/Desktop/python專案/birthday/荷/非答案資料夾/others-legs",  # 請改成你的非答案資料夾路徑
+        "answer_dir": "荷/答案資料夾/ho-legs",
+        "non_answer_dir": "荷/非答案資料夾/others-legs",
         "explanation": "difficulty: 3.5/5"
     },
     {
         "question": "which one is HO's face？",
-        "answer_dir": "/Users/cglinmacbook/Desktop/python專案/birthday/荷/答案資料夾/ho-face",
-        "non_answer_dir": "/Users/cglinmacbook/Desktop/python專案/birthday/荷/非答案資料夾/others-face",  # 請改成你的非答案資料夾路徑
+        "answer_dir": "荷/答案資料夾/ho-face",
+        "non_answer_dir": "荷/非答案資料夾/others-face",
         "explanation": "difficulty: 1/5"
     },
     {
         "question": "which one is HO's mouth？",
-        "answer_dir": "/Users/cglinmacbook/Desktop/python專案/birthday/荷/答案資料夾/ho-mouth",
-        "non_answer_dir": "/Users/cglinmacbook/Desktop/python專案/birthday/荷/非答案資料夾/others-mouth",  # 請改成你的非答案資料夾路徑
+        "answer_dir": "荷/答案資料夾/ho-mouth",
+        "non_answer_dir": "荷/非答案資料夾/others-mouth",
         "explanation": "difficulty: 4/5"
     },
     {
         "question": "which one is HO？",
-        "answer_dir": "/Users/cglinmacbook/Desktop/python專案/birthday/荷/答案資料夾/ho-ponytails",
-        "non_answer_dir": "/Users/cglinmacbook/Desktop/python專案/birthday/荷/非答案資料夾/ponytails",  # 請改成你的非答案資料夾路徑
+        "answer_dir": "荷/答案資料夾/ho-ponytails",
+        "non_answer_dir": "荷/非答案資料夾/ponytails",
         "explanation": "difficulty: 4.5/5"
     },
     {
         "question": "which one is HO？",
-        "answer_dir": "/Users/cglinmacbook/Desktop/python專案/birthday/荷/答案資料夾/ho-face",
-        "non_answer_dir": "/Users/cglinmacbook/Desktop/python專案/birthday/荷/答案資料夾/ho-face",  # 請改成你的非答案資料夾路徑
+        "answer_dir": "荷/答案資料夾/ho-face",
+        "non_answer_dir": "荷/答案資料夾/ho-face",
         "explanation": "difficulty: 5/5 all of them are HOHO. really difficult . but 我沒時間改ㄌ"
     },
-
-
-
-
 ]
 
 RANKING_PATH = "quiz_ranking.json"
