@@ -121,7 +121,7 @@ def photo_choice_question(question_idx):
         else:
             st.session_state["last_is_correct"] = False
         st.session_state["show_answer"] = True
-        st.experimental_rerun()
+        st.rerun()
 
     # 顯示答案與說明
     if st.session_state[result_key]:
@@ -142,7 +142,7 @@ def photo_choice_question(question_idx):
             for key in [ans_key, correct_idx_key, result_key, selected_key, "last_is_correct"]:
                 if key in st.session_state:
                     del st.session_state[key]
-            st.experimental_rerun()
+            st.rerun()
 
 # ======= 主流程 =======
 
@@ -189,8 +189,8 @@ def quiz():
                     del st.session_state[key]
             st.session_state.score = 0
             st.session_state.q_idx = 0
-            st.experimental_rerun()
-            
+            st.rerun()
+
             
             
             
