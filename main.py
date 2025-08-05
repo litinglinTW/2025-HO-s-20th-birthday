@@ -47,7 +47,7 @@ if selected_page == "2025 HOHO's 20th birthday":
     
         """)
         img = Image.open("荷/非答案資料夾/author.png")
-        st.image(img, caption="Hallo", use_column_width=10)
+        st.image(img, caption="hallo", use_column_width=10)
         
     elif subpage == "take a quiz about HO and see how much you really know her":
         quiz()
