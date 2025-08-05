@@ -57,7 +57,15 @@ if selected_page == "2025 HOHO's 20th birthday":
     elif subpage == "卡片":
         # 密碼驗證區塊
         CARD_AUTH_KEY = "card_auth"
-        CARD_PASSWORD = "0800"  # 請換成你要的密碼
+        CARD_PASSWORD = "20050802cattthohoho"  # 請換成你要的密碼
+        st.markdown("""
+        
+        - 密碼提示：ㄉㄢㄢㄓㄢㄚㄢㄉㄏㄇㄔㄔㄔㄘㄟㄘㄟㄘㄟ
+        - 密碼提示圖：
+    
+        """)
+        passwordimg = Image.open("荷/密碼提示.png")
+        st.image(passwordimg, caption="Hallo", use_column_width=10)
 
         if not st.session_state.get(CARD_AUTH_KEY, False):
             pwd = st.text_input("請輸入密碼以進入卡片頁面：", type="password")
