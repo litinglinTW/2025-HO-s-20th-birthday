@@ -65,7 +65,7 @@ if selected_page == "2025 HOHO's 20th birthday":
     
         """)
         passwordimg = Image.open("荷/密碼提示.png")
-        st.image(passwordimg, caption="Hallo", use_column_width=10)
+        st.image(passwordimg, caption="Hallo", use_container_width=10)
 
         if not st.session_state.get(CARD_AUTH_KEY, False):
             pwd = st.text_input("請輸入密碼以進入卡片頁面：", type="password")
